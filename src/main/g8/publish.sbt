@@ -25,7 +25,7 @@ ThisBuild / publishTo := {
 
   if (useArtifactory) {
     val realm = "Artifactory Realm"
-    val provider = "http://artifactory.cs.arizona.edu:8081/artifactory/"
+    val provider = "https://artifactory.clulab.org/artifactory/"
     val repository = "sbt-release-local"
     val details =
       if (isSnapshot.value) ";build.timestamp=" + new java.util.Date().getTime
