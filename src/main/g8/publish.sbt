@@ -70,4 +70,4 @@ ThisBuild / Test    / packageBin / publishArtifact := false
 // password=<password>
 
 // Example realms: Artifactory Realm, Sonatype Nexus Repository Manager
-// Example hosts: artifactory.cs.arizona.edu, oss.sonatype.org
+// Example hosts: artifactory.clulab.org, oss.sonatype.org
